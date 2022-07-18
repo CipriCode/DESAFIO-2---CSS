@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 200px;
+    background: linear-gradient(to bottom, #2196F3, #3D5AFE, #0D47A1);
+}
+
+div.icon-world {
+    text-align: center;
+    margin-top: -35px;
+}
+
+main{
+    margin-top: -80px;
+}
+
+span.material-symbols-outlined {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 100% ;
+    font-size: 60px;
+    color: #2196F3;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+    
+  }
+
+h1, h5 {
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    font-family: Verdana;
+}
+
+h1{
+    padding: 70px 0 0 0;
+}
+h5{
+    padding: 1px;
+}
+section{
+    margin: 100px;
+    margin-left: 37vw;
+    padding: 50px;
+    padding-left: 110px;
+    border: 2px solid black;
+    width: 400px;
+    height: 400px;
+    position:relative;
+    font-family: Verdana;
+}
+
+.botao-buscar {
+    color: #fff;
+    background-color: #2196F3;
+    padding: 10px;
+    position: absolute;
+    bottom: 100px;
+    cursor: pointer;
+}
+
+div input {
+    text-align: center;
+    margin-right: 500px;
+    width: 175px;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 0px 2px 1px blue;
+}
+
+
+
+
